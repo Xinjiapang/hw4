@@ -11,4 +11,4 @@
 2. What are two ways of increasing the spacing between rings?
   The first way is to change the 10 in i=i+10 which is in the loop body. The second way is to change the 
 3. How can you make the ellipse trail longer?
-  add frameRate().
+  change the number in x = x.slice(-50) and y = y.slice(-50).
