@@ -9,6 +9,6 @@
 1. How many times does the loop body run each frame, once the x and y arrays are full?
   6 times.
 2. What are two ways of increasing the spacing between rings?
-  The first way is to change the 10 in i=i+10 which is in the loop body. The second way is to change the 
+  The first way is to change the 10 in i=i+10 which is in the loop body. The second is to change the i in 1 + (x.length - i.
 3. How can you make the ellipse trail longer?
   change the number in x = x.slice(-50) and y = y.slice(-50).
