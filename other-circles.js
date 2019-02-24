@@ -14,7 +14,8 @@ function draw() {
   y.push(mouseY); // equivalent to append(y, mouseY)
 
   for (var i = 0; i < x.length; i = i + 10) {
-    fill(x,200,100);
+    col=map(mouseX,0,400,0,255);
+    fill(col,100,200);
     beginShape();
     vertex(x[i], y[i]);
     vertex(x[i]+(x.length-i), y[i]);
